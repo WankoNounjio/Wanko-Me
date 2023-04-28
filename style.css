@@ -1,0 +1,422 @@
+.block{
+    width: 1300px;
+    margin: 0 auto;
+   
+}
+.chris,.blog,.about,.books,.contact,.events,.c{
+    display: inline-block;
+    margin-top: 5%;
+
+    margin-left:3% ;
+}
+.titre{
+   
+}
+.blog,.about,.books,.contact,.events,.c{
+   
+}
+.chris{
+    margin-left:17% ;
+    margin-right:15% ;
+    font-style: inherit;
+}
+.b,.a,.s,.t,.e,.c{
+    text-decoration: none;
+    color: rgb(7, 2, 2);
+}
+.blog{
+     /* border-top-style: solid; */
+     /* border-width: 3px; */
+}
+.blog{
+ 
+}
+.about{
+    
+}
+.books{
+
+}
+.contact{
+
+}
+.events{
+
+}
+.c{
+
+}
+
+.trait{
+    font-weight: bold;
+    height: 3px;
+    background-color: black;
+}
+
+.entete{
+  
+    margin-top: -7px;
+    padding: 2%;
+}
+.money,.img,.chri{
+    display: inline-block;
+    margin-top: -2%;
+  
+}
+.money{
+    color: rgb(214, 54, 15);
+    margin-left: 16%;
+    text-align: center;
+    font-weight: bold;
+}
+.img{
+    margin-top: -75px;
+    margin-left:35% ;
+}
+.CHRIS{
+    text-align: center;
+}
+.chri,.textehaut{
+    margin-right:20% ;
+}
+.chri{
+    color: rgb(68, 65, 65);
+    float: right;
+    margin-top: -13%;
+    text-align: center;
+}
+.textehaut{
+    color: rgb(119, 116, 116);
+    text-align: center;
+    float: right;
+    margin-top: -5%;
+}
+
+.bande{
+     
+    background-color: rgb(253, 186, 2);
+    color: aliceblue;
+    text-align: center;
+    padding: 4%;
+   font-size: 20px;
+   margin-bottom: -1%;
+   margin-top: -2%;
+}
+
+.largeur1{
+width: 100%;
+}
+.bleu,.vert,.Bleu,.rouge,.orange {
+    display: inline-block;
+    color: aliceblue;
+    width: 12%;
+    text-align: center;
+    margin-left: auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.bleu{
+    background-color: rgb(49, 169, 206);
+    margin-left: 15%;
+ 
+}
+.vert{
+    background-color: rgb(13, 173, 13);
+}
+.Bleu{
+    background-color: blue;
+}
+.rouge{
+    background-color: rgb(233, 4, 4);
+}
+.orange{
+    background-color: rgb(252, 147, 9);
+}
+.B,.V,.U,.R,.O{
+    text-decoration: none;
+    color: white;
+}
+
+.free,.top{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gauche{
+    margin-left: 18%;
+    width: 18%;
+}
+
+.input1,.input2{
+    background-color: rgb(230, 227, 224) ;
+    border:thin solid;
+    border-color:rgb(230, 227, 224) ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1%;
+    padding:1%;
+    font-size: 13px;
+    height: 2%;
+    width: 87%;
+}
+.input1{
+    /* width: 47%; */
+}
+.input2{
+    /* width: 5%; */
+} 
+.subcribe,.rss{
+    border:thin solid;
+    color: #eeeeee;
+    text-align: center;
+    
+    
+    
+}
+.subcribe{
+    background-color: rgb(112, 92, 69);
+     font-family: Arial, Helvetica, sans-serif;
+   padding-left: -4%;
+    border:thin solid;
+    font-size: 11px;
+    margin-left: -28%;
+    width: 27%;
+    padding:2%;
+    font-weight: bold;
+    
+}
+.rss{
+    width: 90%;
+    background-color: rgb(253, 186, 2);
+    margin-bottom: 2%;
+    padding:2%;
+} 
+.gauche,.img1,.droite{
+        display: inline-block ;  
+     }
+ .droite{
+
+    /* margin-right:20% ; */
+    float: right;
+    margin-top: -31%;
+    width: 25%;
+    margin-right: 22%;
+}
+.img1{
+  /* float: right;  */
+margin-right:1%; 
+margin-top: -30%;
+
+}
+.et{
+    color: rgb(252, 108, 6);
+    margin-bottom: -4%;
+    
+}  
+.img,.img1,.img4{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Gestion de la resposive tablette */
+
+@media screen and (min-width:769px) and (max-width:992px){
+    .block{
+     width: px;
+     /* background-color:  rgb(105, 22, 22); */
+    } 
+    .chris{
+        margin-left:-5% ;
+        margin-right:5% ;
+        font-weight: bolder;
+    }
+    .chris,.blog,.about,.books,.contact,.events,.c{
+        display: inline-block;
+        margin-top: 2%;
+        margin-left:1% ;
+       
+    }
+    .trait{
+        width: 58%;
+        margin-right: 50%
+    }
+    .bande{
+        background-color: rgb(253, 186, 2);
+        color: aliceblue;
+        text-align: center;
+        padding: 2%;
+       font-size: 16px;
+       margin-bottom: -1%;
+       /* margin-left: 2%; */
+       width: 54%;
+    }
+    .bleu,.vert,.Bleu,.rouge,.orange {
+        display: inline-block;
+        color: aliceblue;
+        width: 11%;
+        text-align: center;
+        /* margin-left: auto; */
+         font-size: 13px; 
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .bleu{
+        background-color: rgb(49, 169, 206);
+        margin-left: -2%;
+     
+    }
+    .gauche{
+        margin-left: 1%;
+    width: 18%;
+    }
+    .droite{
+       /* margin-right:20% ; */
+    float: right;
+    margin-top: -31%;
+    width: 28%;
+    margin-right: 42%;
+    }
+    .img4{
+        display: none;
+    }
+    .money{
+        color: rgb(214, 54, 15);
+        margin-left: 3%;
+        text-align: center;
+        font-size: 19px;
+/*         margin-buttom: 4px; */
+    }
+    .img{
+        margin-top: 2%;
+        margin-left:3% ;
+        width: 40%;
+    }
+    .chri{
+        color: rgb(68, 65, 65);
+        float: right;
+        margin-top: -11%;
+        text-align: center;
+        font-size: 17px;
+        margin-right: 50%;
+    }
+    .textehaut{
+        color: rgb(119, 116, 116);
+        text-align: center;
+        float: right;
+        margin-top: -3%;
+         margin-right: 50%;
+    }
+    .subcribe{
+        margin-left: -27%;
+    }
+ }
+
+
+
+  /* Gestion de la responcivite du telephone */
+@media screen and (min-width: 320px) and (max-width: 768px){
+
+    .block{
+        /* width: 768px; */
+        /* background-color: rgb(56, 51, 51); */
+        margin: 0 auto;
+        margin-top: -6%;
+    }
+    .chris{
+        margin-left:-1% ;
+        margin-right:4% ;
+        font-weight: bolder;
+      
+    }
+    .blog{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+    .books{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .events{
+        display: none;
+    }
+    .c{
+        display: none;
+    }
+     .trait{
+        width: 23%;
+        margin-right: 90%
+    }
+    .bande{
+        background-color: rgb(253, 186, 2);
+        color: aliceblue;
+        text-align: center;
+        padding: 1%;
+       font-size: 10px;
+       margin-bottom: -1%;
+       margin-right: 1%;
+       width: 21%;
+      
+    }
+    .bleu,.vert,.Bleu,.rouge,.orange {
+        display: inline-block;
+        color: aliceblue;
+        width: 4%;
+        text-align: center;
+        /* margin-left: auto; */
+         font-size: 10px; 
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .bleu{
+        background-color: rgb(49, 169, 206);
+        margin-left: -2%;
+     
+    }
+    .entete{
+        margin-bottom:11px ;
+        margin-top: -6px;
+        padding: 1%;
+    }
+    .money{
+        color: rgb(214, 54, 15);
+        margin-left: 3%;
+        text-align: center;
+        font-size: 5px;
+        margin-top: 6px;
+        margin-buttom: 4px;
+    }
+    .img{
+        margin-top: -80px;
+        margin-left:2% ;
+        width: 15%;
+    }
+    .chri{
+        color: rgb(68, 65, 65);
+        float: right;
+        margin-top: -3%;
+        text-align: center;
+        font-size: 5px;
+        margin-right: 80%;
+    }
+    .textehaut{
+        display: none;
+    }
+    .gauche{
+        display: none;
+    }
+    .img1{
+        display: none;
+    }
+    .img4{
+        display: none;
+    }
+    .droite{
+        float: left;
+        margin-top: 2%;
+        width: 23%;
+        margin-right: 22%;
+    }
+ }
+    
